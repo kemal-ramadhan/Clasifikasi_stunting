@@ -24,7 +24,7 @@ class EduasiController extends Controller
     public function indexTraining()
     {
         return view('admin.edukasi.training',[
-            'title' => 'Data Training For Naive Bayes',
+            'title' => 'Data Training For Support Vector Machine',
             'trainings' => Training::all()
         ]);
     }

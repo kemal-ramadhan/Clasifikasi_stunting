@@ -17,7 +17,7 @@ class Stunting
     {
         return $this->chart->horizontalBarChart()
             ->setTitle('Nilai Perhitungan Sistem')
-            ->setSubtitle('Perhitungan Menggunakan Naive Bayes')
+            ->setSubtitle('Perhitungan Menggunakan Support Vector Machine (SVM)')
             ->setColors(['#63AC45', '#D32F2F'])
             ->addData('Tidak Beresiko', [$nilaiAbsence])
             ->addData('Beresiko Stunting', [$nilaiPresence])

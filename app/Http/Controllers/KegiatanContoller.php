@@ -1,6 +1,8 @@
 <?php
 
+
 namespace App\Http\Controllers;
+// require __DIR__ . '/../../../vendor/autoload.php';
 
 use Illuminate\Http\Request;
 
@@ -14,6 +16,12 @@ use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
 
 use Phpml\Classification\NaiveBayes;
 use Phpml\Dataset\ArrayDataset;
+
+// use Phpml\Classification\SVM;
+// use Phpml\SupportVectorMachine\Kernel;
+
+use Phpml\Classification\SVC;
+use Phpml\SupportVectorMachine\Kernel;
 
 use App\Models\Posyandu;
 use App\Models\Anak;

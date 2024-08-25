@@ -112,7 +112,7 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>LOPRAN KEGIATAN POSYANDUCARE</h1>
+            <h1>LAPORAN KEGIATAN POSYANDUCARE</h1>
         </div>
 
         <div class="card">

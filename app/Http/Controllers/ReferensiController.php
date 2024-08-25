@@ -85,7 +85,7 @@ class ReferensiController extends Controller
     public function indexKb()
     {
         return view('admin.referensi.kb',[
-            'title' => 'Data Referensi Pill Keluarag Berencana(KB)',
+            'title' => 'Data Referensi Keluarag Berencana(KB)',
             'kbs' => KeluargaBerenca::all(),
         ]);
     }
